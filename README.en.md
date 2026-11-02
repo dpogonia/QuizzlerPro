@@ -56,8 +56,8 @@ The snapshot is erased when the round is finished. A new start in the same mode 
 iOS 17.6 or later is required.
 
 ```bash
-git clone https://github.com/dpogonia/Quizzler-Pro.git
-cd Quizzler-Pro
+git clone https://github.com/dpogonia/QuizzlerPro.git
+cd QuizzlerPro
 open Quizzler.xcodeproj
 ```
 

@@ -56,8 +56,8 @@ iOS-викторина на SwiftUI: угадываешь имя любимог�
 Нужна iOS 17.6 и выше.
 
 ```bash
-git clone https://github.com/dpogonia/Quizzler-Pro.git
-cd Quizzler-Pro
+git clone https://github.com/dpogonia/QuizzlerPro.git
+cd QuizzlerPro
 open Quizzler.xcodeproj
 ```
 
