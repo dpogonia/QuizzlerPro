@@ -1,6 +1,6 @@
 [Русский](README.md) | **English**
 
-# Quizzler
+# Quizzler Pro
 
 An iOS quiz in SwiftUI: you guess a character's name, tap **Yes** or **No** while the timer runs, and set records.
 
@@ -56,8 +56,8 @@ The snapshot is erased when the round is finished. A new start in the same mode 
 iOS 17.6 or later is required.
 
 ```bash
-git clone https://github.com/dpogonia/QuizzlerApp.git
-cd QuizzlerApp
+git clone https://github.com/dpogonia/Quizzler-Pro.git
+cd Quizzler-Pro
 open Quizzler.xcodeproj
 ```
 
