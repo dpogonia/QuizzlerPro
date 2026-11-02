@@ -7,6 +7,7 @@
 
 import Foundation
 
+// над UserDefaults.standard. Тема, язык, таймер, вибро, звук, лучший счёт. integer(forKey:) если ключа нет даёт 0
 public final class UserDefaultsStorage: KeyValueStoring, @unchecked Sendable {
     private let defaults: UserDefaults
 

@@ -103,7 +103,7 @@ final class QuizSessionViewModel: ObservableObject {
         pendingSnapshot = nil
         Task { await sessionStore.clear() }
         cancelSessionTasks()
-        store.dispatch(.prepareSession(maxQuestions: 20))
+        store.dispatch(.prepareSession(maxQuestions: 20)) // viewmodel идет в GameStore
 
         if shouldFetchOnStart {
             fetchAPIDataAndStart()

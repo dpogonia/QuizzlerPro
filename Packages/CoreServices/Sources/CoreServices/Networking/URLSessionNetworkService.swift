@@ -7,6 +7,7 @@
 
 import Foundation
 
+// реализация протокола NetworkServing. место, где приложение реально зовёт URLSession.
 public struct URLSessionNetworkService: NetworkServing {
     private let session: URLSession
 

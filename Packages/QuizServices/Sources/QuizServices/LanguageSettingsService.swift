@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// // как и тема хранение языка для UserDefaults
 public protocol LanguageSettingsProviding: AnyObject {
     var current: AppLanguage { get set }
 }

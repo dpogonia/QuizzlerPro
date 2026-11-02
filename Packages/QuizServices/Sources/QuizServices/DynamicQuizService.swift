@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+ // Склеивает раунд: движок выдал «этот персонаж / да или нет» - сеть дала картинку.
 public protocol DynamicQuizServing {
     func prefetchCharactersIfNeeded(for mode: GameMode, into engine: QuizLogicProviding) async throws
     func makeDynamicQuestion(using engine: QuizLogicProviding) async -> (DynamicQuizQuestion, UIImage)?

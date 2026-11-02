@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// Лучший счёт на каждый режим и длительность таймера в UserDefaults.
 public protocol BestScoreStoring: AnyObject {
     func bestScore(for mode: GameMode) -> (score: Int, total: Int)?
     func updateBestScore(correct: Int, total: Int, for mode: GameMode)

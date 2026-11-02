@@ -7,6 +7,7 @@
 
 import Foundation
 
+// actor (на диск по очереди, без гонки). Application Support / Quizzler — банки и session.json. Caches / QuizzlerImages — постеры (система может почистить).
 public actor DiskFileStore: FileStoring {
     private let rootURL: URL
     private let fileManager: FileManager

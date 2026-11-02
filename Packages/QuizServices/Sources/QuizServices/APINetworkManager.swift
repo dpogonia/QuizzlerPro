@@ -10,6 +10,7 @@ import CryptoKit
 import Foundation
 import UIKit
 
+// Ходит в API и качает картинки
 public enum QuizAPIError: LocalizedError {
     case southParkImageNotFound
 

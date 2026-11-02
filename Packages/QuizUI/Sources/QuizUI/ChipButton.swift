@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Настройки: 5/10 сек, тема, звук, вибро, язык
 public struct ChipButton: View {
     let title: String
     let isSelected: Bool
@@ -29,5 +30,11 @@ public struct ChipButton: View {
                 .clipShape(RoundedRectangle(cornerRadius: QuizRadius.chip, style: .continuous))
         }
         .buttonStyle(.plain)
+    }
+}
+
+#Preview {
+    ChipButton(title: "test", isSelected: true) {
+        
     }
 }

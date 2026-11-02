@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 
+// Игра
 public struct PosterFrameView: View {
     let image: UIImage?
     let borderColor: Color

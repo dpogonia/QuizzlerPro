@@ -7,6 +7,7 @@
 
 import Foundation
 
+// правило «у объекта есть id»
 public protocol IdentifiableEntity {
     associatedtype ID: Hashable
     var id: ID { get }

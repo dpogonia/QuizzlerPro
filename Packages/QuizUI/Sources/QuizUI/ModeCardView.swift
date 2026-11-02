@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Старт: режимы Rick and Morty / South Park / Breaking Bad
 public struct ModeCardView: View {
     let symbolName: String
     let title: String

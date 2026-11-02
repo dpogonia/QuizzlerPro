@@ -9,6 +9,7 @@ import CoreServices
 import Foundation
 import UIKit
 
+// типы квиза: режимы, персонажи, движок вопросов
 public enum GameMode: String, CaseIterable, Codable, Sendable {
     case rickAndMorty
     case southPark

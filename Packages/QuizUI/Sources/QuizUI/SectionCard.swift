@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Настройки: «Таймер», «Тема»… вокруг чипов
 public struct SectionCard<Content: View>: View {
     let title: String?
     @ViewBuilder let content: Content

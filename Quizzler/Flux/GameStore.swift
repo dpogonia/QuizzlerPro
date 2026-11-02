@@ -47,7 +47,7 @@ final class GameStore: ObservableObject {
 
     private var cancellables = Set<AnyCancellable>()
 
-    init(question: QuestionStore, timer: TimerStore, score: ScoreStore) {
+    init(question: QuestionStore, timer: TimerStore, score: ScoreStore) { // соединяет вопрос, таймер и счет
         self.question = question
         self.timer = timer
         self.score = score
@@ -58,7 +58,7 @@ final class GameStore: ObservableObject {
         self.init(question: QuestionStore(), timer: TimerStore(), score: ScoreStore())
     }
 
-    func dispatch(_ action: GameAction) {
+    func dispatch(_ action: GameAction) { // метод, принимающий события GameAction
         switch action {
         case .prepareSession(let maxQuestions):
             question.posterImage = nil

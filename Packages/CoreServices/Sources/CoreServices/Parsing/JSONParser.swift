@@ -7,6 +7,7 @@
 
 import Foundation
 
+// протокол декодинга
 public struct JSONParser: JSONParsing {
     private let decoder: JSONDecoder
     private let encoder: JSONEncoder

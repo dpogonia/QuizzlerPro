@@ -7,6 +7,7 @@
 
 import Foundation
 
+// общая коробка сервисов
 public final class ServiceLocator: @unchecked Sendable {
     public static let shared = ServiceLocator()
 

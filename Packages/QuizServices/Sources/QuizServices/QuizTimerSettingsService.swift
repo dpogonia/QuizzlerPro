@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// Сколько секунд на вопрос: список [1, 3, 5, 7, 10], текущее в ключе quiz_timer_duration. Нет значения или мусор то 10.
 public protocol QuizTimerSettingsProviding: AnyObject {
     var availableDurations: [Int] { get }
     var currentDuration: Int { get set }

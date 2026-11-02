@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Игра
 public struct PrimaryAnswerButton: View {
     let title: String
     let isEnabled: Bool

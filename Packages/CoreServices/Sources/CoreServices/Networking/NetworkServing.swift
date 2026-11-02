@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Это нижний слой сети в CoreServices: HTTP
 public enum NetworkError: Error, Equatable {
     case invalidResponse
     case statusCode(Int)

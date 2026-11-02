@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Int / String / Data по строковому ключу.
 public protocol KeyValueStoring: Sendable {
     func set(_ value: Int, forKey key: String)
     func integer(forKey key: String) -> Int

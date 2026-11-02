@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// Настройка темы для UserDefaults
 public protocol ThemeSettingsProviding: AnyObject {
     var current: AppTheme { get set }
 }

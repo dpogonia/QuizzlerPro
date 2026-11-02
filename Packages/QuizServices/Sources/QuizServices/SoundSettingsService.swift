@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// Звуки
 public protocol SoundSettingsProviding: AnyObject {
     var isEnabled: Bool { get set }
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// параллельно тянет три банка, чтобы к меню уже были списки персонажей, а не качать API в момент тапа. Если грузить после выбора режима — долгая крутилка на старте раунда. Прелоадер делает это заранее, пока крутится сплэш.
 public protocol QuizPreloading: AnyObject, Sendable {
     func startIfNeeded() async
     func latestError() async -> Error?

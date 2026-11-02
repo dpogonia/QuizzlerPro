@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// Сохраняет списки персонажей в banks/rm.json и т.д
 public protocol QuizBankCaching: Sendable {
     func saveRM(_ characters: [RMCharacter]) async
     func loadRM() async -> [RMCharacter]?

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// протокол для хранилища
 public protocol FileStoring: Sendable {
     func write(_ data: Data, toRelativePath path: String) async throws
     func read(fromRelativePath path: String) async -> Data?

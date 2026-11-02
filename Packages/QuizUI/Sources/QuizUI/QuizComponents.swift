@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Заголовок секции, карточки рекордов на старте, статусы загрузки
 public struct QuizSectionTitle: View {
     let text: String
 

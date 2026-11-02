@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// режим Continue: session.json + картинка текущего вопроса. ViewModel save/load/clear.
 public struct QuizSessionSnapshot: Codable, Sendable {
     public var mode: GameMode
     public var currentQuestionIndex: Int

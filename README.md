@@ -1,3 +1,5 @@
+**Русский** | [English](README.en.md)
+
 # Quizzler
 
 iOS-викторина на SwiftUI: угадываешь имя любимого персонажа, жмёшь **Да** или **Нет** пока тикает таймер, ставишь рекорды.
@@ -54,8 +56,8 @@ iOS-викторина на SwiftUI: угадываешь имя любимог�
 Нужна iOS 17.6 и выше.
 
 ```bash
-git clone https://github.com/dpogonia/Quizzler-SUI.git
-cd Quizzler-SUI
+git clone https://github.com/dpogonia/QuizzlerApp.git
+cd QuizzlerApp
 open Quizzler.xcodeproj
 ```
 

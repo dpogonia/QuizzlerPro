@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// палитра: цвета, шрифты, отступы
 public enum QuizColor {
     public static let screenBackground = Color(.systemBackground)
     public static let cardBackground = Color(.secondarySystemBackground)

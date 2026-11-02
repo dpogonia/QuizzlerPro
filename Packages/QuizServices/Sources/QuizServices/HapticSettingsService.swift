@@ -8,6 +8,7 @@
 import CoreServices
 import Foundation
 
+// как и тема хранение вибраций для UserDefaults
 public protocol HapticSettingsProviding: AnyObject {
     var isEnabled: Bool { get set }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 import UIKit
 
-enum GameAction {
+enum GameAction { // перечень того, что случилось в раунде
     case prepareSession(maxQuestions: Int)
     case showMessage(String)
     case beginSync
